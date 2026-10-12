@@ -1,5 +1,5 @@
-# <h1 align="center">Laporan Praktikum Modul 1 - Codeblocks IDE & Pengenalan Bahas C++ (Bagian Pertama)</h1>
-<p align="center">Muhammad Dhimas Hafizh Fathurrahman - 2311102151</p>
+# <h1 align="center">Laporan Praktikum Modul 3 ABSTRACT DATA TYPE (ADT)  </h1>
+<p align="center">Gede Yogi Yogesvara Dita Diasta - 109082500037</p>
 
 ## Dasar Teori
 isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
