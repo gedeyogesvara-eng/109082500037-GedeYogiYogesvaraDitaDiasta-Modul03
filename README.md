@@ -312,7 +312,7 @@ int main() {
 ##### Output 1
 Screenshot Output Unguided 3![https://github.com/(username github)/(nama repository)/blob/main/Pertemuan3_Modul3/Output-Unguided3-1.png](https://github.com/gedeyogesvara-eng/109082500037-GedeYogiYogesvaraDitaDiasta-Modul03/blob/main/img/modul3%20modul%203.png?raw=true)
 
-program membuat dua array 2D integer ukuran 3x3 arrayA dan arrayB dan dua pointer integer ptr1 dan ptr2 yang menunjuk ke var1 dan var2 prosedur tampilArray dipakai untuk mencetak isi array per baris dan kolom prosedur tukarIsiArray menukar isi arrayA dan arrayB pada posisi tertentu dan di main posisi yang dipakai adalah baris 1 kolom 1 jadi angka 5 di array A tertukar dengan angka 5 di array B lalu tukarPointer menukar nilai dua variabel lewat pointer memakai * sehingga isi var1 dan var2 bertukar dari 100 dan 999 menjadi 999 dan 100.
+program membuat dua array 2D integer ukuran 3x3 arrayA dan arrayB dan dua pointer integer ptr1 dan ptr2 yang menunjuk ke var1 dan var2 prosedur tampilArray dipakai untuk mencetak isi array per baris dan kolom prosedur tukarIsiArray menukar isi arrayA dan arrayB pada posisi tertentu dan di main posisi yang dipakai adalah baris 2 kolom 2 jadi angka 9 di array A tertukar dengan angka 1 di array B lalu tukarPointer menukar nilai dua variabel lewat pointer memakai * sehingga isi var1 dan var2 bertukar dari 100 dan 999 menjadi 999 dan 100.
 
 ## Kesimpulan
 Dari praktikum ini saya belajar bahwa ADT membantu intuk membuat sebuah type beserta operasinya dengan lebih rapi, karena type dan primitifnya dipisah dari program utama jadi dengan membagi program jadi file header .h body .cpp dan driver main.cpp kodenya jadi lebih mudah dibaca, lebih gampang diperbaiki dan bisa dipakai lagi di program lain
