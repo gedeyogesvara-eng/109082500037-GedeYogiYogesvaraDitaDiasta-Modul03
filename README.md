@@ -20,7 +20,7 @@ Waktu diimplementasikan ADT biasanya dibagi jadi dua modul utama dan satu modul 
 Isinya spesifikasi type dan header dari primitif. Untuk fungsi dituliskan nama, domain, range, dan prekondisi (kalau ada). Untuk prosedur dituliskan initial state, final state, dan proses yang dilakukan
 #### 2. File Body .cpp
 Isinya realisasi atau kode dari primitif yang sudah dideklarasikan di header. Sebisa mungkin realisasinya memakai selector dan konstruktor
-#### File Driver main.cpp
+#### 3. File Driver main.cpp
 Isinya program utama yang meng-include file header, lalu memanggil primitif yang sudah dibuat
 
 ## Guided 
@@ -56,7 +56,7 @@ int main() {
     return 0;
 }
 ```
-Program ini terdapat type mahasiswa yang punya nim, nilai1, dan nilai2 ada dua primitif prosedur inputMhs untuk mengisi data parameternya pakai &m supaya perubahannya ikut tersimpan di variabel aslinya, dan fungsi rata2 untuk menghitung rata-rata dari dua nilai untuk yang ini semuanya masih ditaruh dalam satu file
+Program ini terdapat type mahasiswa yang punya nim, nilai1, dan nilai2 ada dua primitif prosedur inputMhs untuk mengisi data parameternya pakai &m supaya perubahannya ikut tersimpan di variabel dan fungsi rata2 untuk menghitung rata-rata dari dua nilai untuk yang ini semuanya masih ditaruh dalam satu file.
 
 ### 2. Penerapan ADT dengan Pemisahan File (.h, .cpp, main.cpp)
 
@@ -110,7 +110,7 @@ int main() {
     return 0;
 }
 ```
-Program dipecah jadi tiga file sesuai konsep ADT mahasiswa.h berisi struct dan header fungsi/prosedurnya, ditambah #ifndef, #define, dan #endif supaya header tidak ter-include dua kali. mahasiswa.cpp berisi isi dari fungsi dan prosedurnya sedangkan main.cpp hanya jadi program utama yang memanggil semuanya.
+Program dipecah jadi tiga file dengan konsep ADT mahasiswa.h berisi struct dan header fungsi/prosedurnya ditambah #ifndef #define dan #endif supaya header tidak ter-include dua kali mahasiswa.cpp berisi isi dari fungsi dan prosedurnya sedangkan main.cpp hanya jadi program utama yang memanggil semuanya.
 
 ## Unguided 
 
@@ -172,7 +172,7 @@ int main() {
 ##### Output 1
 ![Screenshot Output Unguided 1_1](https://github.com/(username github)/(nama repository)/blob/main/Pertemuan3_Modul3/Output-Unguided1-1.png)
 
-Program menggunakan struct mahasiswa lalu menyimpannya di array data dengan ukuran maksimal 10 (MAX). Jumlah mahasiswa yang diinput dibatasi lewat do while supaya tidak lebih dari 10. Nilai akhir tidak diinput manual, tapi dihitung oleh fungsi hitungNilaiAkhir memakai rumus 0.3UTS + 0.4UAS + 0.3*Tugas, lalu hasilnya disimpan ke field nilaiAkhir setelah semua data terisi, program menampilkan seluruh data mahasiswa beserta nilai akhirnya
+Program menggunakan struct mahasiswa lalu menyimpannya di array data dengan ukuran maksimal 10 (MAX). Jumlah mahasiswa yang diinput maksimal 10 lewat do while supaya tidak lebih dari 10 nilai akhir tidak diinput manual, tapi dihitung oleh fungsi hitungNilaiAkhir memakai rumus 0.3UTS + 0.4UAS + 0.3*Tugas lalu hasilnya disimpan ke field nilaiAkhir setelah semua data terisi, program menampilkan seluruh data mahasiswa beserta nilai akhirnya
 
 ### 2. ADT pelajaran (pelajaran.h, pelajaran.cpp, main.cpp)
 
@@ -237,7 +237,7 @@ int main() {
 ##### Output 1
 ![Screenshot Output Unguided 2_1](https://github.com/(username github)/(nama repository)/blob/main/Pertemuan3_Modul3/Output-Unguided2-1.png)
 
-ADT pelajaran punya dua field, yaitu namamapel dan kodemapel. Fungsi create_pelajaran berperan sebagai konstruktor, jadi tugasnya membentuk satu data pelajaran dari nama dan kode yang dikirim. Prosedur tampil_pelajaran dipakai untuk menampilkan isinya ke layar. Tulisan output saya samakan dengan contoh di modul, yaitu nama pelajaran : Struktur Data dan nilai : STD.
+ADT pelajaran punya dua field yaitu namamapel dan kodemapel fungsi create_pelajaran sebagai konstruktor untuk membentuk satu data pelajaran dari nama dan kode yang dikirim prosedur tampil_pelajaran dipakai untuk menampilkan isinya lalu tulisan output disamakan dengan contoh di modul yaitu nama pelajaran : Struktur Data dan nilai : STD.
 
 ### 3. Program array 2D 3x3, pointer integer, tampil array, tukar isi array pada posisi tertentu, dan tukar isi variabel yang ditunjuk pointer
 
@@ -312,10 +312,10 @@ int main() {
 ##### Output 1
 ![Screenshot Output Unguided 3_1](https://github.com/(username github)/(nama repository)/blob/main/Pertemuan3_Modul3/Output-Unguided3-1.png)
 
-Program memiliki dua array 2D integer berukuran 3x3 (`A` dan `B`) serta dua pointer integer (`p1` dan `p2`). Prosedur `tampilArray` mencetak isi array 2D, `tukarPosisi` menukar elemen `A` dan `B` pada baris dan kolom yang dipilih pengguna, dan `tukarPointer` menukar nilai dua variabel melalui pointer dengan operator dereferensi (`*`).
+program membuat dua array 2D integer ukuran 3x3 arrayA dan arrayB dan dua pointer integer ptr1 dan ptr2 yang menunjuk ke var1 dan var2 prosedur tampilArray dipakai untuk mencetak isi array per baris dan kolom prosedur tukarIsiArray menukar isi arrayA dan arrayB pada posisi tertentu dan di main posisi yang dipakai adalah baris 1 kolom 1 jadi angka 5 di array A tertukar dengan angka 5 di array B lalu tukarPointer menukar nilai dua variabel lewat pointer memakai * sehingga isi var1 dan var2 bertukar dari 100 dan 999 menjadi 999 dan 100.
 
 ## Kesimpulan
-Dari praktikum ini saya belajar bahwa ADT membantu kita membuat sebuah type beserta operasinya dengan lebih rapi, karena type dan primitifnya dipisah dari program utama. Dengan membagi program jadi file header (.h), body (.cpp), dan driver (main.cpp), kodenya jadi lebih mudah dibaca, lebih gampang diperbaiki, dan bisa dipakai lagi di program lain
+Dari praktikum ini saya belajar bahwa ADT membantu intuk membuat sebuah type beserta operasinya dengan lebih rapi, karena type dan primitifnya dipisah dari program utama jadi dengan membagi program jadi file header .h body .cpp dan driver main.cpp kodenya jadi lebih mudah dibaca, lebih gampang diperbaiki dan bisa dipakai lagi di program lain
 
 ## Referensi
 [1] Laboratorium Informatika. (2024). "Modul 3 Abstract Data Type (ADT)", Modul Praktikum Struktur Data. Bandung: Fakultas Informatika, Telkom University.

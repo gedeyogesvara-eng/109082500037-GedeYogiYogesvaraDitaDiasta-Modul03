@@ -46,8 +46,8 @@ int main() {
     cout << "Array B:" << endl;
     tampilArray(arrayB);
 
-    cout << "Tukar isi array pada posisi (1,1):" << endl;
-    tukarIsiArray(arrayA, arrayB, 1, 1);
+    cout << "Tukar isi array pada posisi (2,2):" << endl;
+    tukarIsiArray(arrayA, arrayB, 2, 2);
     
     cout << "Array A setelah ditukar:" << endl;
     tampilArray(arrayA);
