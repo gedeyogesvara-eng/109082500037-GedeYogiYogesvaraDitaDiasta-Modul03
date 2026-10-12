@@ -170,7 +170,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/(username github)/(nama repository)/blob/main/Pertemuan3_Modul3/Output-Unguided1-1.png)
+Screenshot Output Unguided 1![https://github.com/(username github)/(nama repository)/blob/main/Pertemuan3_Modul3/Output-Unguided1-1.png](https://github.com/gedeyogesvara-eng/109082500037-GedeYogiYogesvaraDitaDiasta-Modul03/blob/main/img/latihan1%20modul%203.png?raw=true)
 
 Program menggunakan struct mahasiswa lalu menyimpannya di array data dengan ukuran maksimal 10 (MAX). Jumlah mahasiswa yang diinput maksimal 10 lewat do while supaya tidak lebih dari 10 nilai akhir tidak diinput manual, tapi dihitung oleh fungsi hitungNilaiAkhir memakai rumus 0.3UTS + 0.4UAS + 0.3*Tugas lalu hasilnya disimpan ke field nilaiAkhir setelah semua data terisi, program menampilkan seluruh data mahasiswa beserta nilai akhirnya
 
@@ -235,7 +235,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github)/(nama repository)/blob/main/Pertemuan3_Modul3/Output-Unguided2-1.png)
+Screenshot Output Unguided 2![(https://github.com/(username github)/(nama repository)/blob/main/Pertemuan3_Modul3/Output-Unguided2-1.png)](https://github.com/gedeyogesvara-eng/109082500037-GedeYogiYogesvaraDitaDiasta-Modul03/blob/main/img/latihan2%20modul%203.png?raw=true)
 
 ADT pelajaran punya dua field yaitu namamapel dan kodemapel fungsi create_pelajaran sebagai konstruktor untuk membentuk satu data pelajaran dari nama dan kode yang dikirim prosedur tampil_pelajaran dipakai untuk menampilkan isinya lalu tulisan output disamakan dengan contoh di modul yaitu nama pelajaran : Struktur Data dan nilai : STD.
 
@@ -310,7 +310,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github)/(nama repository)/blob/main/Pertemuan3_Modul3/Output-Unguided3-1.png)
+Screenshot Output Unguided 3![https://github.com/(username github)/(nama repository)/blob/main/Pertemuan3_Modul3/Output-Unguided3-1.png](https://github.com/gedeyogesvara-eng/109082500037-GedeYogiYogesvaraDitaDiasta-Modul03/blob/main/img/modul3%20modul%203.png?raw=true)
 
 program membuat dua array 2D integer ukuran 3x3 arrayA dan arrayB dan dua pointer integer ptr1 dan ptr2 yang menunjuk ke var1 dan var2 prosedur tampilArray dipakai untuk mencetak isi array per baris dan kolom prosedur tukarIsiArray menukar isi arrayA dan arrayB pada posisi tertentu dan di main posisi yang dipakai adalah baris 1 kolom 1 jadi angka 5 di array A tertukar dengan angka 5 di array B lalu tukarPointer menukar nilai dua variabel lewat pointer memakai * sehingga isi var1 dan var2 bertukar dari 100 dan 999 menjadi 999 dan 100.
 
